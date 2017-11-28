@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AL_USDMaya
-   &#160;<span id="projectnumber">0.24.5</span>
+   &#160;<span id="projectnumber">0.25.0</span>
    </div>
    <div id="projectbrief">USD to Maya Bridge</div>
   </td>
@@ -174,6 +174,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a25cc4ad82fa51024e988450d2283e220"><td class="memItemLeft" align="right" valign="top">static UsdPrim&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html#a25cc4ad82fa51024e988450d2283e220">exportObject</a> (UsdStageRefPtr stage, MDagPath mayaPath, const SdfPath &amp;usdPath, const <a class="el" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html">ExporterParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a25cc4ad82fa51024e988450d2283e220"><td class="mdescLeft">&#160;</td><td class="mdescRight">exports a mesh to the USD file and returns the created prim  <a href="#a25cc4ad82fa51024e988450d2283e220">More...</a><br /></td></tr>
 <tr class="separator:a25cc4ad82fa51024e988450d2283e220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab22e402ec3e3047b8d3b2b2d52749ed6"><td class="memItemLeft" align="right" valign="top">static UsdPrim&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html#ab22e402ec3e3047b8d3b2b2d52749ed6">exportUV</a> (UsdStageRefPtr stage, MDagPath mayaPath, const SdfPath &amp;usdPath, const <a class="el" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html">ExporterParams</a> &amp;params)</td></tr>
+<tr class="memdesc:ab22e402ec3e3047b8d3b2b2d52749ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">exports only UV of a mesh to the USD file and returns the overridden prim  <a href="#ab22e402ec3e3047b8d3b2b2d52749ed6">More...</a><br /></td></tr>
+<tr class="separator:ab22e402ec3e3047b8d3b2b2d52749ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator.html">AL::usdmaya::fileio::translators::DagNodeTranslator</a></td></tr>
 <tr class="memitem:ac20ba4983d1c6a74b19e9c15339afd1c inherit pub_static_methods_classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator"><td class="memItemLeft" align="right" valign="top">static MStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator.html#ac20ba4983d1c6a74b19e9c15339afd1c">registerType</a> ()</td></tr>
 <tr class="memdesc:ac20ba4983d1c6a74b19e9c15339afd1c inherit pub_static_methods_classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator"><td class="mdescLeft">&#160;</td><td class="mdescRight">static type registration  <a href="#ac20ba4983d1c6a74b19e9c15339afd1c">More...</a><br /></td></tr>
@@ -1021,13 +1024,71 @@ static MObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">stage</td><td>the stage in which to create the prim </td></tr>
-    <tr><td class="paramname">mayaPath</td><td>the path to the maya curve to export </td></tr>
+    <tr><td class="paramname">mayaPath</td><td>the path to the maya mesh to export </td></tr>
     <tr><td class="paramname">usdPath</td><td>the usd path where the prim should be created </td></tr>
     <tr><td class="paramname">params</td><td>the export options </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the newly created usd prim </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab22e402ec3e3047b8d3b2b2d52749ed6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static UsdPrim AL::usdmaya::fileio::translators::MeshTranslator::exportUV </td>
+          <td>(</td>
+          <td class="paramtype">UsdStageRefPtr&#160;</td>
+          <td class="paramname"><em>stage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MDagPath&#160;</td>
+          <td class="paramname"><em>mayaPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const SdfPath &amp;&#160;</td>
+          <td class="paramname"><em>usdPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html">ExporterParams</a> &amp;&#160;</td>
+          <td class="paramname"><em>params</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>exports only UV of a mesh to the USD file and returns the overridden prim </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stage</td><td>the stage in which to override the prim </td></tr>
+    <tr><td class="paramname">mayaPath</td><td>the path to the maya curve to export </td></tr>
+    <tr><td class="paramname">usdPath</td><td>the usd path where the prim should be created </td></tr>
+    <tr><td class="paramname">params</td><td>the export options </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the overridden usd prim </dd></dl>
 
 </div>
 </div>
@@ -1066,7 +1127,7 @@ static MObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceAL.html">AL</a></li><li class="navelem"><b>usdmaya</b></li><li class="navelem"><b>fileio</b></li><li class="navelem"><b>translators</b></li><li class="navelem"><a class="el" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html">MeshTranslator</a></li>
-    <li class="footer">Generated on Mon Nov 6 2017 15:45:54 for AL_USDMaya by
+    <li class="footer">Generated on Tue Nov 28 2017 14:27:31 for AL_USDMaya by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

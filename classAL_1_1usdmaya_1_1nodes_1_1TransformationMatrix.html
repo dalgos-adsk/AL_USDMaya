@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AL_USDMaya
-   &#160;<span id="projectnumber">0.24.5</span>
+   &#160;<span id="projectnumber">0.25.0</span>
    </div>
    <div id="projectbrief">USD to Maya Bridge</div>
   </td>
@@ -131,6 +131,18 @@ Inheritance diagram for AL::usdmaya::nodes::TransformationMatrix:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a9ab2461f79a8ed37a8053a89a021cf1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a9ab2461f79a8ed37a8053a89a021cf1d">setMObject</a> (const MObject object)</td></tr>
+<tr class="memdesc:a9ab2461f79a8ed37a8053a89a021cf1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the MObject for the transform  <a href="#a9ab2461f79a8ed37a8053a89a021cf1d">More...</a><br /></td></tr>
+<tr class="separator:a9ab2461f79a8ed37a8053a89a021cf1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22ff801bb9a4e5fc9d1fa9a767b36173"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a22ff801bb9a4e5fc9d1fa9a767b36173">isTranslateLocked</a> ()</td></tr>
+<tr class="memdesc:a22ff801bb9a4e5fc9d1fa9a767b36173"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks to see whether the transform attribute is locked  <a href="#a22ff801bb9a4e5fc9d1fa9a767b36173">More...</a><br /></td></tr>
+<tr class="separator:a22ff801bb9a4e5fc9d1fa9a767b36173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8488642dd0b6f224226c73c1c849e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#adb8488642dd0b6f224226c73c1c849e5">isRotateLocked</a> ()</td></tr>
+<tr class="memdesc:adb8488642dd0b6f224226c73c1c849e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks to see whether the rotate attribute is locked  <a href="#adb8488642dd0b6f224226c73c1c849e5">More...</a><br /></td></tr>
+<tr class="separator:adb8488642dd0b6f224226c73c1c849e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a129226f4a1a6afa9666a912f95b6033c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a129226f4a1a6afa9666a912f95b6033c">isScaleLocked</a> ()</td></tr>
+<tr class="memdesc:a129226f4a1a6afa9666a912f95b6033c"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks to see whether the scale attribute is locked  <a href="#a129226f4a1a6afa9666a912f95b6033c">More...</a><br /></td></tr>
+<tr class="separator:a129226f4a1a6afa9666a912f95b6033c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1275f09398ca8bb2f53489aaf55b455e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1275f09398ca8bb2f53489aaf55b455e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a1275f09398ca8bb2f53489aaf55b455e">TransformationMatrix</a> ()</td></tr>
 <tr class="memdesc:a1275f09398ca8bb2f53489aaf55b455e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctor <br /></td></tr>
@@ -471,6 +483,84 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="adb8488642dd0b6f224226c73c1c849e5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AL::usdmaya::nodes::TransformationMatrix::isRotateLocked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks to see whether the rotate attribute is locked </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the rotate attribute is locked </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a129226f4a1a6afa9666a912f95b6033c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AL::usdmaya::nodes::TransformationMatrix::isScaleLocked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks to see whether the scale attribute is locked </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the scale attribute is locked </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a22ff801bb9a4e5fc9d1fa9a767b36173"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AL::usdmaya::nodes::TransformationMatrix::isTranslateLocked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks to see whether the transform attribute is locked </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the translate attribute is locked </dd></dl>
 
 </div>
 </div>
@@ -1125,6 +1215,38 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 </div>
 </div>
+<a class="anchor" id="a9ab2461f79a8ed37a8053a89a021cf1d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AL::usdmaya::nodes::TransformationMatrix::setMObject </td>
+          <td>(</td>
+          <td class="paramtype">const MObject&#160;</td>
+          <td class="paramname"><em>object</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets the MObject for the transform </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">object</td><td>the MObject for the custom transform node </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a4a1e0af5ab23692830c720112968a6ef"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1182,7 +1304,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceAL.html">AL</a></li><li class="navelem"><b>usdmaya</b></li><li class="navelem"><b>nodes</b></li><li class="navelem"><a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html">TransformationMatrix</a></li>
-    <li class="footer">Generated on Mon Nov 6 2017 15:45:55 for AL_USDMaya by
+    <li class="footer">Generated on Tue Nov 28 2017 14:27:32 for AL_USDMaya by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

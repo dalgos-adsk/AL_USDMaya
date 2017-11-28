@@ -44,12 +44,15 @@ var searchData=
   ['ispathunselectable',['isPathUnselectable',['../classAL_1_1usdmaya_1_1SelectabilityDB.html#a6be626a798153e37e750826b4f134c24',1,'AL::usdmaya::SelectabilityDB']]],
   ['ispointaboveplane',['IsPointAbovePlane',['http://github.al.com.au/pages/documentation/shareBase/namespaceAL.html#abc2b564b3d87fec13cf11b65b3779161',1,'AL']]],
   ['isrequiredpath',['isRequiredPath',['../classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a7f9ca28c091ed8f6fa4fad910f55e4bf',1,'AL::usdmaya::nodes::ProxyShape']]],
+  ['isrotatelocked',['isRotateLocked',['../classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#adb8488642dd0b6f224226c73c1c849e5',1,'AL::usdmaya::nodes::TransformationMatrix']]],
+  ['isscalelocked',['isScaleLocked',['../classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a129226f4a1a6afa9666a912f95b6033c',1,'AL::usdmaya::nodes::TransformationMatrix']]],
   ['isschemaoftype',['isSchemaOfType',['../group__fileio.html#ga46452970b3b1a6e94145b67d0bb77436',1,'AL::usdmaya::fileio']]],
   ['isschemaprim',['isSchemaPrim',['../classAL_1_1usdmaya_1_1fileio_1_1SchemaPrimsUtils.html#a2ae0c6002daf7098c5f93cea978cc982',1,'AL::usdmaya::fileio::SchemaPrimsUtils']]],
   ['isselected',['isSelected',['../classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html#aa87bdce4f3f32c66efcfaab69b6a0d4b',1,'AL::usdmaya::nodes::SelectionList']]],
   ['isselectedmobject',['isSelectedMObject',['../classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a93979018dfe814d6ecab54eea3c96e32',1,'AL::usdmaya::nodes::ProxyShape']]],
   ['issublayer',['isSubLayer',['../classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#a5799477bd47bd1c8f7d05492cd865459',1,'AL::usdmaya::nodes::LayerVisitor']]],
   ['isthreed',['isThreeD',['http://github.al.com.au/pages/documentation/shareBase/structAL_1_1GridLattice.html#aa666f67944046d83ada73ef3b3e195a1',1,'AL::GridLattice']]],
+  ['istranslatelocked',['isTranslateLocked',['../classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a22ff801bb9a4e5fc9d1fa9a767b36173',1,'AL::usdmaya::nodes::TransformationMatrix']]],
   ['iteratecache',['iterateCache',['http://github.al.com.au/pages/documentation/shareBase/structAL_1_1FragmentCache_1_1Unlocker.html#a9f2bee745ea79b05b571b838c8fb611e',1,'AL::FragmentCache::Unlocker']]],
   ['iteratecontainer',['iterateContainer',['http://github.al.com.au/pages/documentation/shareBase/structAL_1_1FragmentCache.html#ae8e1e6ae2e7bdc37c38302197650cb27',1,'AL::FragmentCache']]]
 ];

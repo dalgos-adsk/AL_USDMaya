@@ -148,18 +148,6 @@
     </topic>
     <topic label="Usd Maya" href="group__usdmaya.html">
       <topic label="Nodes" href="group__nodes.html">
-        <topic label="HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html">
-          <topic label="HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a00ab31db2ba54e3727ea2ed517f3548d"/>
-          <topic label="~HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#ab6c20363ce45b52e8423cae563e5a984"/>
-          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#afcd85072b1a20ecd808321ac016842ad"/>
-          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a6f061c5eb9603b06cba88e8aee9463ea"/>
-          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#aa61c99a082819424e8a2ae506e8e41eb"/>
-          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a9a334b3d9e0b5c61feab868b06660a0c"/>
-          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a4c485a6f12027a5dd7fbe982ae2b6dc5"/>
-          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a74bb42207f0a0da0c7d187c2ae215996"/>
-          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#ae02e5f33f48a0a7f1b529b51ef4a8264"/>
-          <topic label="AL_MAYA_DECLARE_NODE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#ae4f5ecfd9de3bb8178a3542a0d5a0992"/>
-        </topic>
         <topic label="Layer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html">
           <topic label="Layer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ae31a85443d6a6a0cb960052b13dbf12e"/>
           <topic label="addChildLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a08d36015450ac6d13ae2324133683ce0"/>
@@ -345,6 +333,9 @@
           <topic label="hasAnimatedTranslation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a38bd8da10b052549a7a59427a1fd6c45"/>
           <topic label="hasAnimation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ae3e6c15fb13ac31959acee9847bf3adf"/>
           <topic label="initialiseToPrim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a05a715d47b7b2a446aaf9ccc2bb18337"/>
+          <topic label="isRotateLocked" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#adb8488642dd0b6f224226c73c1c849e5"/>
+          <topic label="isScaleLocked" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a129226f4a1a6afa9666a912f95b6033c"/>
+          <topic label="isTranslateLocked" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a22ff801bb9a4e5fc9d1fa9a767b36173"/>
           <topic label="prim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#aa8c018c038ab46f1685777b65364dcda"/>
           <topic label="primHasPivot" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a774f7ca79dcbc0c5b2ffd138f8d8d331"/>
           <topic label="primHasRotateAxes" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a588905db6e71b79f39f32d1f32d927a8"/>
@@ -362,6 +353,7 @@
           <topic label="pushToPrimEnabled" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ad4a6f175425f2cc98ed34a45a11061ae"/>
           <topic label="readAnimatedValues" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ac0e08b7e6b395643d764b92b2c7df730"/>
           <topic label="setLocalTranslationOffset" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a1cfb5683ae2c44369a5892c95a4bbd0b"/>
+          <topic label="setMObject" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a9ab2461f79a8ed37a8053a89a021cf1d"/>
           <topic label="setPrim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a4a1e0af5ab23692830c720112968a6ef"/>
           <topic label="updateToTime" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a71fb1f5fa51c9792884418848022eea8"/>
         </topic>
@@ -583,9 +575,11 @@
           <topic label="m_dynamicAttributes" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a0c37beff7c9287d2adbd4c598eb757ca"/>
           <topic label="m_fileName" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a9c4f9ad5550391a910db2876f7346467"/>
           <topic label="m_filterSample" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a623bea4748d1428f8fdfda9afde00b87"/>
+          <topic label="m_leftHandedUV" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#af26fff4069ba305065f4d00d9f45b255"/>
           <topic label="m_maxFrame" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a3d2bdd7024ca8b808ce061592aa172f9"/>
           <topic label="m_mergeTransforms" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ad2426b6290f8edeb36f455b3504665e0"/>
           <topic label="m_meshes" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a5d672b37bd617caf602cafb7a068c5bc"/>
+          <topic label="m_meshUV" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a0428d1c825b946b7fc9a4d709c70d431"/>
           <topic label="m_minFrame" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a8f06dff1c1e451a0744c699e1146da6d"/>
           <topic label="m_nodes" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a5596ddfae63b67184b7e3d8c8923872d"/>
           <topic label="m_nurbsCurves" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ac8e6d8c2d41f78345fdf875dd11e1c4a"/>
@@ -1055,9 +1049,11 @@
               <topic label="m_dynamicAttributes" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a0c37beff7c9287d2adbd4c598eb757ca"/>
               <topic label="m_fileName" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a9c4f9ad5550391a910db2876f7346467"/>
               <topic label="m_filterSample" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a623bea4748d1428f8fdfda9afde00b87"/>
+              <topic label="m_leftHandedUV" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#af26fff4069ba305065f4d00d9f45b255"/>
               <topic label="m_maxFrame" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a3d2bdd7024ca8b808ce061592aa172f9"/>
               <topic label="m_mergeTransforms" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ad2426b6290f8edeb36f455b3504665e0"/>
               <topic label="m_meshes" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a5d672b37bd617caf602cafb7a068c5bc"/>
+              <topic label="m_meshUV" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a0428d1c825b946b7fc9a4d709c70d431"/>
               <topic label="m_minFrame" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a8f06dff1c1e451a0744c699e1146da6d"/>
               <topic label="m_nodes" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a5596ddfae63b67184b7e3d8c8923872d"/>
               <topic label="m_nurbsCurves" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ac8e6d8c2d41f78345fdf875dd11e1c4a"/>
@@ -1138,6 +1134,7 @@
                 <topic label="getTypeInfo" href="structAL_1_1usdmaya_1_1nodes_1_1proxy_1_1PrimFilterInterface.html#abee6bc6053d32af9c34339cb7bf8bd79"/>
               </topic>
             </topic>
+            <topic label="FindLockedPrimsLogic" href="structAL_1_1usdmaya_1_1nodes_1_1FindLockedPrimsLogic.html"/>
             <topic label="FindUnselectablePrimsLogic" href="structAL_1_1usdmaya_1_1nodes_1_1FindUnselectablePrimsLogic.html">
               <topic label="newUnselectables" href="structAL_1_1usdmaya_1_1nodes_1_1FindUnselectablePrimsLogic.html#a790a5eec935e42309b7c312043c56c6e"/>
               <topic label="removeUnselectables" href="structAL_1_1usdmaya_1_1nodes_1_1FindUnselectablePrimsLogic.html#aaefb16b914e05e7c8af62c2a7daf5d22"/>
@@ -1147,18 +1144,6 @@
               <topic label="iteration" href="structAL_1_1usdmaya_1_1nodes_1_1HierarchyIterationLogic.html#a56a4b04954a0ae4b9c4c6c5f7f0f8af9"/>
               <topic label="postIteration" href="structAL_1_1usdmaya_1_1nodes_1_1HierarchyIterationLogic.html#a283e048066efafb0232bcb221141251c"/>
               <topic label="preIteration" href="structAL_1_1usdmaya_1_1nodes_1_1HierarchyIterationLogic.html#a7b80bc8a6ca7505d9782e63345313a60"/>
-            </topic>
-            <topic label="HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html">
-              <topic label="HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a00ab31db2ba54e3727ea2ed517f3548d"/>
-              <topic label="~HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#ab6c20363ce45b52e8423cae563e5a984"/>
-              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#afcd85072b1a20ecd808321ac016842ad"/>
-              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a6f061c5eb9603b06cba88e8aee9463ea"/>
-              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#aa61c99a082819424e8a2ae506e8e41eb"/>
-              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a9a334b3d9e0b5c61feab868b06660a0c"/>
-              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a4c485a6f12027a5dd7fbe982ae2b6dc5"/>
-              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a74bb42207f0a0da0c7d187c2ae215996"/>
-              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#ae02e5f33f48a0a7f1b529b51ef4a8264"/>
-              <topic label="AL_MAYA_DECLARE_NODE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#ae4f5ecfd9de3bb8178a3542a0d5a0992"/>
             </topic>
             <topic label="Layer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html">
               <topic label="Layer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ae31a85443d6a6a0cb960052b13dbf12e"/>
@@ -1363,6 +1348,9 @@
               <topic label="hasAnimatedTranslation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a38bd8da10b052549a7a59427a1fd6c45"/>
               <topic label="hasAnimation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ae3e6c15fb13ac31959acee9847bf3adf"/>
               <topic label="initialiseToPrim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a05a715d47b7b2a446aaf9ccc2bb18337"/>
+              <topic label="isRotateLocked" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#adb8488642dd0b6f224226c73c1c849e5"/>
+              <topic label="isScaleLocked" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a129226f4a1a6afa9666a912f95b6033c"/>
+              <topic label="isTranslateLocked" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a22ff801bb9a4e5fc9d1fa9a767b36173"/>
               <topic label="prim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#aa8c018c038ab46f1685777b65364dcda"/>
               <topic label="primHasPivot" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a774f7ca79dcbc0c5b2ffd138f8d8d331"/>
               <topic label="primHasRotateAxes" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a588905db6e71b79f39f32d1f32d927a8"/>
@@ -1380,6 +1368,7 @@
               <topic label="pushToPrimEnabled" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ad4a6f175425f2cc98ed34a45a11061ae"/>
               <topic label="readAnimatedValues" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ac0e08b7e6b395643d764b92b2c7df730"/>
               <topic label="setLocalTranslationOffset" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a1cfb5683ae2c44369a5892c95a4bbd0b"/>
+              <topic label="setMObject" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a9ab2461f79a8ed37a8053a89a021cf1d"/>
               <topic label="setPrim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a4a1e0af5ab23692830c720112968a6ef"/>
               <topic label="updateToTime" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a71fb1f5fa51c9792884418848022eea8"/>
             </topic>
@@ -1460,6 +1449,7 @@
       <topic label="std::hash&lt; AL::maya::ProfilerSectionPath &gt;" href="structstd_1_1hash_3_01AL_1_1maya_1_1ProfilerSectionPath_01_4.html"/>
       <topic label="std::hash&lt; AL::maya::ProfilerSectionTag &gt;" href="structstd_1_1hash_3_01AL_1_1maya_1_1ProfilerSectionTag_01_4.html"/>
       <topic label="AL::usdmaya::nodes::HierarchyIterationLogic" href="structAL_1_1usdmaya_1_1nodes_1_1HierarchyIterationLogic.html">
+        <topic label="AL::usdmaya::nodes::FindLockedPrimsLogic" href="structAL_1_1usdmaya_1_1nodes_1_1FindLockedPrimsLogic.html"/>
         <topic label="AL::usdmaya::nodes::FindUnselectablePrimsLogic" href="structAL_1_1usdmaya_1_1nodes_1_1FindUnselectablePrimsLogic.html"/>
       </topic>
       <topic label="AL::usdmaya::fileio::Import" href="classAL_1_1usdmaya_1_1fileio_1_1Import.html"/>
@@ -1512,7 +1502,6 @@
         <topic label="AL::usdmaya::StageData" href="classAL_1_1usdmaya_1_1StageData.html"/>
       </topic>
       <topic label="MPxNode">
-        <topic label="AL::usdmaya::nodes::HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html"/>
         <topic label="AL::usdmaya::nodes::Layer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html"/>
       </topic>
       <topic label="MPxSurfaceShape">
@@ -1529,7 +1518,6 @@
       </topic>
       <topic label="AL::usdmaya::fileio::NodeFactory" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html"/>
       <topic label="AL::maya::NodeHelper" href="classAL_1_1maya_1_1NodeHelper.html">
-        <topic label="AL::usdmaya::nodes::HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html"/>
         <topic label="AL::usdmaya::nodes::Layer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html"/>
         <topic label="AL::usdmaya::nodes::ProxyShape" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html"/>
         <topic label="AL::usdmaya::nodes::Transform" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html"/>
@@ -1705,7 +1693,6 @@
                     <topic label="DrivenTransforms.h" href="DrivenTransforms_8h_source.html"/>
                     <topic label="PrimFilter.h" href="PrimFilter_8h_source.html"/>
                   </topic>
-                  <topic label="HostDrivenTransforms.h" href="HostDrivenTransforms_8h_source.html"/>
                   <topic label="Layer.h" href="Layer_8h_source.html"/>
                   <topic label="LayerVisitor.h" href="LayerVisitor_8h_source.html"/>
                   <topic label="ProxyDrawOverride.h" href="ProxyDrawOverride_8h_source.html"/>

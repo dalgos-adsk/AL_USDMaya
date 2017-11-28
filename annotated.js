@@ -74,9 +74,9 @@ var annotated =
             [ "PrimFilter", "classAL_1_1usdmaya_1_1nodes_1_1proxy_1_1PrimFilter.html", "classAL_1_1usdmaya_1_1nodes_1_1proxy_1_1PrimFilter" ],
             [ "PrimFilterInterface", "structAL_1_1usdmaya_1_1nodes_1_1proxy_1_1PrimFilterInterface.html", "structAL_1_1usdmaya_1_1nodes_1_1proxy_1_1PrimFilterInterface" ]
           ] ],
+          [ "FindLockedPrimsLogic", "structAL_1_1usdmaya_1_1nodes_1_1FindLockedPrimsLogic.html", null ],
           [ "FindUnselectablePrimsLogic", "structAL_1_1usdmaya_1_1nodes_1_1FindUnselectablePrimsLogic.html", "structAL_1_1usdmaya_1_1nodes_1_1FindUnselectablePrimsLogic" ],
           [ "HierarchyIterationLogic", "structAL_1_1usdmaya_1_1nodes_1_1HierarchyIterationLogic.html", "structAL_1_1usdmaya_1_1nodes_1_1HierarchyIterationLogic" ],
-          [ "HostDrivenTransforms", "classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html", "classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms" ],
           [ "Layer", "classAL_1_1usdmaya_1_1nodes_1_1Layer.html", "classAL_1_1usdmaya_1_1nodes_1_1Layer" ],
           [ "LayerVisitor", "classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html", "classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor" ],
           [ "ProxyDrawOverride", "classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html", "classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride" ],

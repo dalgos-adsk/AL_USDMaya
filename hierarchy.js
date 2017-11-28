@@ -27,6 +27,7 @@ var hierarchy =
     [ "std::hash< AL::maya::ProfilerSectionPath >", "structstd_1_1hash_3_01AL_1_1maya_1_1ProfilerSectionPath_01_4.html", null ],
     [ "std::hash< AL::maya::ProfilerSectionTag >", "structstd_1_1hash_3_01AL_1_1maya_1_1ProfilerSectionTag_01_4.html", null ],
     [ "AL::usdmaya::nodes::HierarchyIterationLogic", "structAL_1_1usdmaya_1_1nodes_1_1HierarchyIterationLogic.html", [
+      [ "AL::usdmaya::nodes::FindLockedPrimsLogic", "structAL_1_1usdmaya_1_1nodes_1_1FindLockedPrimsLogic.html", null ],
       [ "AL::usdmaya::nodes::FindUnselectablePrimsLogic", "structAL_1_1usdmaya_1_1nodes_1_1FindUnselectablePrimsLogic.html", null ]
     ] ],
     [ "AL::usdmaya::fileio::Import", "classAL_1_1usdmaya_1_1fileio_1_1Import.html", null ],
@@ -79,7 +80,6 @@ var hierarchy =
       [ "AL::usdmaya::StageData", "classAL_1_1usdmaya_1_1StageData.html", null ]
     ] ],
     [ "MPxNode", null, [
-      [ "AL::usdmaya::nodes::HostDrivenTransforms", "classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html", null ],
       [ "AL::usdmaya::nodes::Layer", "classAL_1_1usdmaya_1_1nodes_1_1Layer.html", null ]
     ] ],
     [ "MPxSurfaceShape", null, [
@@ -96,7 +96,6 @@ var hierarchy =
     ] ],
     [ "AL::usdmaya::fileio::NodeFactory", "structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html", null ],
     [ "AL::maya::NodeHelper", "classAL_1_1maya_1_1NodeHelper.html", [
-      [ "AL::usdmaya::nodes::HostDrivenTransforms", "classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html", null ],
       [ "AL::usdmaya::nodes::Layer", "classAL_1_1usdmaya_1_1nodes_1_1Layer.html", null ],
       [ "AL::usdmaya::nodes::ProxyShape", "classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html", null ],
       [ "AL::usdmaya::nodes::Transform", "classAL_1_1usdmaya_1_1nodes_1_1Transform.html", null ]

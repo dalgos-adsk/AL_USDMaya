@@ -12,6 +12,7 @@ var searchData=
   ['m_5fmaxframe',['m_maxFrame',['../structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a3d2bdd7024ca8b808ce061592aa172f9',1,'AL::usdmaya::fileio::ExporterParams']]],
   ['m_5fmergetransforms',['m_mergeTransforms',['../structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ad2426b6290f8edeb36f455b3504665e0',1,'AL::usdmaya::fileio::ExporterParams']]],
   ['m_5fmeshes',['m_meshes',['../structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a5d672b37bd617caf602cafb7a068c5bc',1,'AL::usdmaya::fileio::ExporterParams::m_meshes()'],['../structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#a6909983a6a3defb94689d72d5116c9fc',1,'AL::usdmaya::fileio::ImporterParams::m_meshes()']]],
+  ['m_5fmeshuv',['m_meshUV',['../structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a0428d1c825b946b7fc9a4d709c70d431',1,'AL::usdmaya::fileio::ExporterParams']]],
   ['m_5fminframe',['m_minFrame',['../structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a8f06dff1c1e451a0744c699e1146da6d',1,'AL::usdmaya::fileio::ExporterParams']]],
   ['m_5fnodes',['m_nodes',['../structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a5596ddfae63b67184b7e3d8c8923872d',1,'AL::usdmaya::fileio::ExporterParams']]],
   ['m_5fnurbscurves',['m_nurbsCurves',['../structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ac8e6d8c2d41f78345fdf875dd11e1c4a',1,'AL::usdmaya::fileio::ExporterParams::m_nurbsCurves()'],['../structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#a241c1a6f5335a7e158d5cd0a140884db',1,'AL::usdmaya::fileio::ImporterParams::m_nurbsCurves()']]],

@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AL_USDMaya
-   &#160;<span id="projectnumber">0.24.5</span>
+   &#160;<span id="projectnumber">0.25.0</span>
    </div>
    <div id="projectbrief">USD to Maya Bridge</div>
   </td>
@@ -109,17 +109,17 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <dd>Remove?  </dd>
 <dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html">AL::usdmaya::fileio::NodeFactory</a>  </dt>
 <dd>Phase this class out, and migrate the existing code into the translator framework.  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a230d9f9cc769e3f74ada0b69064b49ed">AL::usdmaya::nodes::ProxyShape::makeUsdTransformChain</a>  (const UsdPrim &amp;usdPrim, MDagModifier &amp;modifier, TransformReason reason, MDGModifier *modifier2=0, uint32_t *createCount=0)</dt>
+<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a230d9f9cc769e3f74ada0b69064b49ed">AL::usdmaya::nodes::ProxyShape::makeUsdTransformChain</a>  (const UsdPrim &amp;usdPrim, MDagModifier &amp;modifier, TransformReason reason, MDGModifier *modifier2=0, uint32_t *createCount=0)</dt>
 <dd>The mode ProxyShape::kSelection will cause the possibility of instability in the selection system. This mode will be removed at a future date  </dd>
-<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aba8023459a8e19669094647b26f82c9b">AL::usdmaya::nodes::ProxyShape::makeUsdTransforms</a>  (const UsdPrim &amp;usdPrim, MDagModifier &amp;modifier, TransformReason reason, MDGModifier *modifier2=0)</dt>
+<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aba8023459a8e19669094647b26f82c9b">AL::usdmaya::nodes::ProxyShape::makeUsdTransforms</a>  (const UsdPrim &amp;usdPrim, MDagModifier &amp;modifier, TransformReason reason, MDGModifier *modifier2=0)</dt>
 <dd>The mode ProxyShape::kSelection will cause the possibility of instability in the selection system. This mode will be removed at a future date  </dd>
-<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a6f509afd3a7d5e93fd4eb55720aa3bba">AL::usdmaya::nodes::ProxyShape::removeUsdTransformChain</a>  (const UsdPrim &amp;usdPrim, MDagModifier &amp;modifier, TransformReason reason)</dt>
+<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a6f509afd3a7d5e93fd4eb55720aa3bba">AL::usdmaya::nodes::ProxyShape::removeUsdTransformChain</a>  (const UsdPrim &amp;usdPrim, MDagModifier &amp;modifier, TransformReason reason)</dt>
 <dd>The mode ProxyShape::kSelection will cause the possibility of instability in the selection system. This mode will be removed at a future date  </dd>
-<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#af93e27c060bc1c88ab1aba5659e8ecf9">AL::usdmaya::nodes::ProxyShape::removeUsdTransforms</a>  (const UsdPrim &amp;usdPrim, MDagModifier &amp;modifier, TransformReason reason)</dt>
+<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#af93e27c060bc1c88ab1aba5659e8ecf9">AL::usdmaya::nodes::ProxyShape::removeUsdTransforms</a>  (const UsdPrim &amp;usdPrim, MDagModifier &amp;modifier, TransformReason reason)</dt>
 <dd>The mode ProxyShape::kSelection will cause the possibility of instability in the selection system. This mode will be removed at a future date  </dd>
-<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a85bed0f9897764735a87c7f1be1b787d">AL::usdmaya::nodes::ProxyShape::unloadMayaReferences</a>  ()</dt>
+<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a85bed0f9897764735a87c7f1be1b787d">AL::usdmaya::nodes::ProxyShape::unloadMayaReferences</a>  ()</dt>
 <dd>I think we could remove this now? The only place this is used is within the post load process to ensure we don't duplicate any references in the scene. This can probably be removed.  </dd>
-<dt><a class="anchor" id="_todo000010"></a>Class <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html">AL::usdmaya::nodes::Transform</a>  </dt>
+<dt><a class="anchor" id="_todo000009"></a>Class <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html">AL::usdmaya::nodes::Transform</a>  </dt>
 <dd>General todo list, and other quirks....<ol type="1">
 <li>pushToPrim when enabled, does not add transform operations into the UsdPrim it is tracking. So for example, if you have a prim with no transform ops, not much is going to happen. If however your prim has the full spectrum of rotate axis, translate, scale, rotate, shear, etc; then you will be able to have full control over the prim. This will need to be addressed at some point soon. One of the more challenging aspects here is that we will need to modify a) the geom op order [e.g. insert a scale op, where there was not one before]; and b) rotation is going to be a PITA [There may be a rotateX op, but after modification that may need to be deleted, and replaced with a rotateXYZ op]</li>
 <li>If pushToPrim is disabled, any modifications to the transform values are stored as offsets from the USD prim values. This works quite well for local space operations such as scale and rotation, semi-works for translation [effectively this is a parent space translation offset - useful for moving an anim clip] However for values such as rotation and scale pivots, yeah, the result might be a little strange.</li>
@@ -128,21 +128,19 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <li>If the usd prim xform stack has only one pivot, any separate modifications of scale/rotate pivot in maya will result in an undefined behavior.  </li>
 </ol>
 </dd>
-<dt><a class="anchor" id="_todo000011"></a>Member <a class="el" href="group__usdmaya.html#gaa4edec5f87980cd4a7a84c60b4c832f1">AL::usdmaya::registerPlugin</a>  (AFnPlugin &amp;plugin)</dt>
+<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="group__usdmaya.html#gaa4edec5f87980cd4a7a84c60b4c832f1">AL::usdmaya::registerPlugin</a>  (AFnPlugin &amp;plugin)</dt>
 <dd>Move this code into initializePlugin  </dd>
-<dt><a class="anchor" id="_todo000013"></a>Member <a class="el" href="classAL_1_1usdmaya_1_1StageCache.html#ab9a215769401efedc5488c50e0e413af">AL::usdmaya::StageCache::Get</a>  (bool forcePopulate=true)</dt>
+<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="classAL_1_1usdmaya_1_1StageCache.html#ab9a215769401efedc5488c50e0e413af">AL::usdmaya::StageCache::Get</a>  (bool forcePopulate=true)</dt>
 <dd>we need to offer a way of mapping from a specific ProxyShape to a specific stage  </dd>
-<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="group__usdmaya.html#ga03d499eef4ae1302dde337fc499f915a">AL::usdmaya::unregisterPlugin</a>  (AFnPlugin &amp;plugin)</dt>
-<dd>Move this code into uninitializePlugin  </dd>
-<dt><a class="anchor" id="_todo000004"></a>Group <a class="el" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#amgrpa816b1490db55325974e1976e379771e">Type Info &amp; Registration</a>  </dt>
-<dd>needs documenting! </dd>
+<dt><a class="anchor" id="_todo000011"></a>Member <a class="el" href="group__usdmaya.html#ga03d499eef4ae1302dde337fc499f915a">AL::usdmaya::unregisterPlugin</a>  (AFnPlugin &amp;plugin)</dt>
+<dd>Move this code into uninitializePlugin </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Nov 6 2017 15:45:53 for AL_USDMaya by
+    <li class="footer">Generated on Tue Nov 28 2017 14:27:30 for AL_USDMaya by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

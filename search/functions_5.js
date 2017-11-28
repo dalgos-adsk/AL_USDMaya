@@ -20,5 +20,6 @@ var searchData=
   ['export',['Export',['../classAL_1_1usdmaya_1_1fileio_1_1Export.html#acfbe335ee413f1de583f74bd7523ef87',1,'AL::usdmaya::fileio::Export']]],
   ['exportanimation',['exportAnimation',['../structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html#a0eacfd4908b4164d1c09daf9cb6700bc',1,'AL::usdmaya::fileio::AnimationTranslator']]],
   ['exportcommand',['ExportCommand',['../classAL_1_1usdmaya_1_1fileio_1_1ExportCommand.html#ac26d5bf1082994bb5efaa54b18d756e0',1,'AL::usdmaya::fileio::ExportCommand']]],
-  ['exportobject',['exportObject',['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html#a25cc4ad82fa51024e988450d2283e220',1,'AL::usdmaya::fileio::translators::MeshTranslator::exportObject()'],['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1NurbsCurveTranslator.html#a88b228e253ecf16d825c999282f69d60',1,'AL::usdmaya::fileio::translators::NurbsCurveTranslator::exportObject()']]]
+  ['exportobject',['exportObject',['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html#a25cc4ad82fa51024e988450d2283e220',1,'AL::usdmaya::fileio::translators::MeshTranslator::exportObject()'],['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1NurbsCurveTranslator.html#a88b228e253ecf16d825c999282f69d60',1,'AL::usdmaya::fileio::translators::NurbsCurveTranslator::exportObject()']]],
+  ['exportuv',['exportUV',['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html#ab22e402ec3e3047b8d3b2b2d52749ed6',1,'AL::usdmaya::fileio::translators::MeshTranslator']]]
 ];

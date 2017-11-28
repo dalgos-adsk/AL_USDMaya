@@ -29,6 +29,7 @@ var searchData=
   ['findexcludedgeometry',['findExcludedGeometry',['../classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a3c2b83700017c82a7e1ff2f455a26931',1,'AL::usdmaya::nodes::ProxyShape']]],
   ['findlayer',['findLayer',['../classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a87be7f6d692870184266c0af5780d2d0',1,'AL::usdmaya::nodes::Layer::findLayer()'],['../classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a18d8ca915b6878e5ad38988e7fe9e94b',1,'AL::usdmaya::nodes::ProxyShape::findLayer()']]],
   ['findlayermayaname',['findLayerMayaName',['../classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ab2b4400ddb08d0dc6c3e7c5835f9fede',1,'AL::usdmaya::nodes::ProxyShape']]],
+  ['findlockedprimslogic',['FindLockedPrimsLogic',['../structAL_1_1usdmaya_1_1nodes_1_1FindLockedPrimsLogic.html',1,'AL::usdmaya::nodes']]],
   ['findmutlitilefiles',['findMutliTileFiles',['http://github.al.com.au/pages/documentation/shareBase/namespaceAL.html#a0dbec8a124ad605fb6f368df2969899f',1,'AL']]],
   ['findrecordbyname',['FindRecordByName',['http://github.al.com.au/pages/documentation/shareBase/structAL_1_1SimpleProfiler_1_1FindRecordByName.html',1,'AL::SimpleProfiler']]],
   ['findrequiredpath',['findRequiredPath',['../classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a9d0c61439cc2bc72e7f1fe5f52c54adc',1,'AL::usdmaya::nodes::ProxyShape']]],

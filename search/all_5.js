@@ -33,5 +33,6 @@ var searchData=
   ['exportcommand',['ExportCommand',['../classAL_1_1usdmaya_1_1fileio_1_1ExportCommand.html',1,'AL::usdmaya::fileio']]],
   ['exporterparams',['ExporterParams',['../structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html',1,'AL::usdmaya::fileio']]],
   ['exportobject',['exportObject',['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html#a25cc4ad82fa51024e988450d2283e220',1,'AL::usdmaya::fileio::translators::MeshTranslator::exportObject()'],['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1NurbsCurveTranslator.html#a88b228e253ecf16d825c999282f69d60',1,'AL::usdmaya::fileio::translators::NurbsCurveTranslator::exportObject()']]],
+  ['exportuv',['exportUV',['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html#ab22e402ec3e3047b8d3b2b2d52749ed6',1,'AL::usdmaya::fileio::translators::MeshTranslator']]],
   ['eyeposition',['eyePosition',['http://github.al.com.au/pages/documentation/shareBase/structAL_1_1GP_1_1CamInfo.html#a8a6d6519e7e4ee71d5d7c29eeec2a465',1,'AL::GP::CamInfo']]]
 ];

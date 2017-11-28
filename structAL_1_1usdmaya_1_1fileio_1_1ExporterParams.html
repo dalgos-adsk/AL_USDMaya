@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AL_USDMaya
-   &#160;<span id="projectnumber">0.24.5</span>
+   &#160;<span id="projectnumber">0.25.0</span>
    </div>
    <div id="projectbrief">USD to Maya Bridge</div>
   </td>
@@ -145,9 +145,15 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a5d672b37bd617caf602cafb7a068c5bc">m_meshes</a> = true</td></tr>
 <tr class="memdesc:a5d672b37bd617caf602cafb7a068c5bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, export meshes <br /></td></tr>
 <tr class="separator:a5d672b37bd617caf602cafb7a068c5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8e6d8c2d41f78345fdf875dd11e1c4a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac8e6d8c2d41f78345fdf875dd11e1c4a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ac8e6d8c2d41f78345fdf875dd11e1c4a">m_nurbsCurves</a> = true</td></tr>
-<tr class="memdesc:ac8e6d8c2d41f78345fdf875dd11e1c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true export nurbs curves <br /></td></tr>
+<tr class="memitem:a0428d1c825b946b7fc9a4d709c70d431"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0428d1c825b946b7fc9a4d709c70d431"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a0428d1c825b946b7fc9a4d709c70d431">m_meshUV</a> = false</td></tr>
+<tr class="memdesc:a0428d1c825b946b7fc9a4d709c70d431"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, export a scene hierarchy with all empty prims marked "over", only meshes UV will be filled in. <br /></td></tr>
+<tr class="separator:a0428d1c825b946b7fc9a4d709c70d431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af26fff4069ba305065f4d00d9f45b255"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af26fff4069ba305065f4d00d9f45b255"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_leftHandedUV</b> = false</td></tr>
+<tr class="separator:af26fff4069ba305065f4d00d9f45b255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8e6d8c2d41f78345fdf875dd11e1c4a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ac8e6d8c2d41f78345fdf875dd11e1c4a">m_nurbsCurves</a> = true</td></tr>
+<tr class="memdesc:ac8e6d8c2d41f78345fdf875dd11e1c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, UV indices retrieved from Maya will be adjusted to left-handed orientation, it only works with m_meshUV.  <a href="#ac8e6d8c2d41f78345fdf875dd11e1c4a">More...</a><br /></td></tr>
 <tr class="separator:ac8e6d8c2d41f78345fdf875dd11e1c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c37beff7c9287d2adbd4c598eb757ca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c37beff7c9287d2adbd4c598eb757ca"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a0c37beff7c9287d2adbd4c598eb757ca">m_dynamicAttributes</a> = true</td></tr>
@@ -184,7 +190,23 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>parameters for the exporter. These parameters are constructed by any command or file translator that wishes to export data from maya, which are then passed to the <a class="el" href="classAL_1_1usdmaya_1_1fileio_1_1Export.html" title="A class that wraps up the entire export process. ">AL::usdmaya::fileio::Export</a> class to perform the actual export work. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ac8e6d8c2d41f78345fdf875dd11e1c4a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AL::usdmaya::fileio::ExporterParams::m_nurbsCurves = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if true, UV indices retrieved from Maya will be adjusted to left-handed orientation, it only works with m_meshUV. </p>
+<p>if true export nurbs curves </p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li>src/lib/AL_USDMaya/AL/usdmaya/fileio/<a class="el" href="ExportParams_8h_source.html">ExportParams.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -193,7 +215,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceAL.html">AL</a></li><li class="navelem"><b>usdmaya</b></li><li class="navelem"><b>fileio</b></li><li class="navelem"><a class="el" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html">ExporterParams</a></li>
-    <li class="footer">Generated on Mon Nov 6 2017 15:45:54 for AL_USDMaya by
+    <li class="footer">Generated on Tue Nov 28 2017 14:27:31 for AL_USDMaya by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>
